@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #595959d1;
+}
+
+.Header-main img {
+	width: 300px;
+}
+
+body .Header-main {
+	background-color: #fff5f5d1;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+}
+
+.Header-logo {
+	display: grid;
+	justify-content: center;
+}
+.Header-main .Header-nav {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.Header-main .Header-nav a {
+	text-decoration: none;
+	color: #15302c;
+}
+.desvanecido {
+	height: 150px;
+	background-image: linear-gradient(180deg, #fff5f5d1, transparent);
+}
